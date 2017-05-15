@@ -134,8 +134,7 @@ class Interaction:
     def features(self):
         return [
             self.title_match(), self.clevel_match(), self.indus_match(),
-            self.discipline_match(), self.country_match(), self.region_match(), 
-	    self.expyears_match(), self.employment_match()
+            self.discipline_match(), self.country_match(), self.region_match()
         ]
 
     def label(self): 
